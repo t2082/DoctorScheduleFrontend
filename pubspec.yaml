@@ -1,0 +1,68 @@
+name: schedule_doctor
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/vectors/
+    - assets/images/
+
+  fonts: 
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Black.ttf
+          weight: 600
+        - asset: assets/fonts/Roboto-BlackItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 500
+        - asset: assets/fonts/Roboto-BoldItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 400
+        - asset: assets/fonts/Roboto-MediumItalic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/Roboto-Regular.ttf
+          weight: 300
+        - asset: assets/fonts/Roboto-Italic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Roboto-Light.ttf
+          weight: 200
+        - asset: assets/fonts/Roboto-LightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/Roboto-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Roboto-ThinItalic.ttf
+          weight: 100
+          style: italic
+  
